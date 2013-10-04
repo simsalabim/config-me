@@ -23,5 +23,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "cucumber", '~> 1.1'
   s.add_development_dependency "rspec", '~> 2.9'
-  s.add_runtime_dependency "activesupport", '~> 3.0'
+  s.add_runtime_dependency "activesupport", '>= 3.0'
 end
